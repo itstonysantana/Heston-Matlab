@@ -1,13 +1,3 @@
-%Stochastic volatility model. Generates paths for stock prices SPaths under
-%stochastic volatility; %k is the rate of mean reversion;
-%phi is the long run variance;sigma=Vo is the spot
-%variance (i.e. sigmaˆ2);
-%rho is the correlation coefficient; phi is the long run
-%mean variance;
-%sigma1 is the volatility of variance or volatility of
-%volatility.; r is the drift parameter;q=dividend yield;
-%Note T must be expressed in days (i.e. 30/365,60/365,
-%75/365,etc. . .);
 function [SPaths,Vt]=StochJumpPath(so,r,q,rho,sigma, sigma1,k,phi,lam_j,mean_j,vol_j,T,NSteps,Rep)
 dt=T/NSteps;Vo=sigma;
 y=k*sigma1; k1=k+y; phi1=(k*phi)/(k+y); %we have assumed the same specification as in CERRATO(2009).
