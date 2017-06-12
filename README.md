@@ -1,7 +1,5 @@
 # Heston-Matlab
 
-##### Pricing Asian Options with Monte Carlo and Stochastic Volatility With Jump Diffusion
-
 One of the major drawbacks of the widely known Black-Scholes-Merton formula is its assumption of a constant variance. The Heston model seeks to remedy that issue by introducing the volatility as a stochastic process. 
 
 This collection of functions prices Asian options using the Heston model with Monte Carlo methods, and with a jump-diffusion process implemented. It can price Asian calls and puts with arithmetic and geometric averages for the asset price and the strike price. This code operates from a modified version of Mario Cerrato's implementation of the Heston model in his book, '**The Mathematics of Derivatives Securities with Applications in Matlab**'.
