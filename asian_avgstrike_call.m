@@ -1,4 +1,4 @@
-function [x] = asian_avgstrike_call(so,K,r,R,q,rho,sigma, sigma1,k,phi,lam_j,mean_j,vol_j,T,NSteps,Rep)
+function [option_value] = asian_avgstrike_call(so,r,R,q,rho,sigma, sigma1,k,phi,lam_j,mean_j,vol_j,T,NSteps,Rep)
 x = StochJumpPath(so,r,q,rho,sigma, sigma1,k,phi,lam_j,mean_j,vol_j,T,NSteps,Rep);
 x = x(:,2:NSteps);
 arith_mean = mean(x,2);
@@ -13,4 +13,3 @@ for elm = arith_mean
     index = index + 1;
 end
 option_value = mean(m)*exp(-R*T);
-disp(option_value)
