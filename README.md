@@ -11,15 +11,16 @@ Refer to the [testing file](https://github.com/itstonysantana/Heston-Matlab/blob
 
 ### Functions
 
-* [asian_avgprice_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_avgprice_call.m)   -  Computes the price of an Asian average price call
-* [asian_avgstrike_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_avgstrike_call.m)  -  Computes the price of an Asian average strike put
-* [asian_avgprice_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_avgprice_put.m)    -  Computes the price of an Asian average price put
-* [asian_avgstrike_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_avgstrike_put.m)   -  Computes the price of an Asian average strike put
-* [asian_geoprice_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_geoprice_call.m)   -  Computes the price of an Asian geometric average price call
-* [asian_geostrike_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_geostrike_call.m)  -  Computes the price of an Asian geometric average strike call
-* [asian_geoprice_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_geoprice_put.m)    -  Computes the price of an Asian geometric average price put
-* [asian_geostrike_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/asian_geostrike_put.m)   -  Computes the price of an Asian geometric average strike put
-* [StochJumpPath](https://github.com/itstonysantana/Heston-Matlab/blob/master/StochJumpPath.m)         -  Simulates price paths for a stock price under the Heston model with jumps
+* [asian_avgprice_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_avgprice_call.m)   -  Computes the price of an Asian average price call
+* [asian_avgstrike_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_avgprice_put.m)  -  Computes the price of an Asian average strike put
+* [asian_avgprice_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_avgstrike_call.m)    -  Computes the price of an Asian average price put
+* [asian_avgstrike_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_avgstrike_put.m)   -  Computes the price of an Asian average strike put
+* [asian_geoprice_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geoprice_call.m)   -  Computes the price of an Asian geometric average price call
+* [asian_geostrike_call](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geoprice_put.m)  -  Computes the price of an Asian geometric average strike call
+* [asian_geoprice_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geostrike_call.m)    -  Computes the price of an Asian geometric average price put
+* [asian_geostrike_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geostrike_put.m)   -  Computes the price of an Asian geometric average strike put
+* [Heston_Pathing](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pathing%20Models/Heston_Pathing.m)         -  Simulates price paths for a stock price under the Heston model with jumps
+* [Heston_Pathing_WithSS](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pathing%20Models/Heston_Pathing_WithSS.m) - Simulates price paths for a stock price under the Heston model with jumps and stratified sampling
 
 ### References
 
