@@ -38,3 +38,5 @@ V(:,1) = Vo;               %
     end
 SPaths=SPP;
 Vt=V1;
+SPaths=transpose(SPaths);
+plot(SPaths)
