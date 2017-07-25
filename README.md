@@ -20,7 +20,6 @@ Refer to the [testing file](https://github.com/itstonysantana/Heston-Matlab/blob
 * [asian_geoprice_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geostrike_call.m)    -  Computes the price of an Asian geometric average price put
 * [asian_geostrike_put](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pricing%20Functions/asian_geostrike_put.m)   -  Computes the price of an Asian geometric average strike put
 * [Heston_Pathing](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pathing%20Models/Heston_Pathing.m)         -  Simulates price paths for a stock price under the Heston model with jumps
-* [Heston_Pathing_WithSS](https://github.com/itstonysantana/Heston-Matlab/blob/master/Pathing%20Models/Heston_Pathing_WithSS.m) - Simulates price paths for a stock price under the Heston model with jumps and stratified sampling
 
 ### References
 
